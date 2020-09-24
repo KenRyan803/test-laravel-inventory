@@ -1,0 +1,37 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+$fa-font-path:        "../webfonts";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~admin-lte/dist/css/adminlte.css';
+
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+
+// Vue Select
+@import "~vue-select/src/scss/vue-select.scss";
+
+// Navbar badge
+.navbar-badge {
+    font-size: .6rem;
+    font-weight: 300;
+    // padding: 2px 4px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.navbar-expand .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.badge-warning {
+    color: #1f2d3d;
+    background-color: #ffc107;
+}
